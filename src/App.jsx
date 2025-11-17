@@ -1,10 +1,10 @@
 import React from 'react'
-import TwowayBinding from './TwowayBinding'
+import TwowayBinding from './TwowayBinding.jsx'
 
 const App = () => {
   return (
     <>
-      <TwowayBinding />
+      <TwowayBinding/>
 
     </>
   )
