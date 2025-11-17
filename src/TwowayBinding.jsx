@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Twoway.css'
+import './twoway.css'
 import { FaDeleteLeft } from "react-icons/fa6";
 
 const TwowayBinding = () => {
