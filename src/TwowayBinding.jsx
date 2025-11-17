@@ -10,12 +10,12 @@ const TwowayBinding = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        console.log("form submitted!!");
+        // console.log("form submitted!!");
 
         const copyadd = [...add];
         copyadd.push({ first, second });
         setadd(copyadd)
-        console.log(add);
+        // console.log(add);
 
 
         setfirst('')
@@ -27,7 +27,7 @@ const TwowayBinding = () => {
         copyadd.splice(idx,1)
 
         setadd(copyadd)
-        console.log(copyadd);
+        // console.log(copyadd);
 
     }
     return (
